@@ -1,6 +1,6 @@
-# Assignment 4: HTML and CSS Web Pages
+#  Sample College website
 
-This repository contains Assignment 4 for the HTML and CSS course. It showcases the development of a simple multi-page website using HTML5 and CSS3, demonstrating fundamental web development concepts including forms, styling, and responsive design.
+This is a sample college website. It showcases the development of a simple multi-page website using HTML5 and CSS3, demonstrating fundamental web development concepts including forms, styling, and responsive design.
 
 ## Pages Included
 
