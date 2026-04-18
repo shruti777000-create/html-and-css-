@@ -47,8 +47,7 @@ No server setup is required as this is a static website.
 - Image integration for visual appeal
 
 ## Author
-
-[Your Name] - Assignment submission for HTML and CSS course.
+SHRUTI G
 
 ## License
 
