@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/loginstd.css">
+</head>
+
+<body>  
+
+<div class="login-container">
+    <h2>Login</h2>
+
+    <form onsubmit="return validateLogin(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="idNumber">ID Number:</label>
+        <input type="text" id="idNumber" name="idNumber" required><br><br>
+
+        <input type="submit" value="Login">
+
+    </form>
+</div>
+
+<script>
+
+function validateLogin() {
+
+    var name = document.getElementById("name").value;
+    var password = document.getElementById("password").value;
+    var idNumber = document.getElementById("idNumber").value;
+
+    var specialChars = ["@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+", "|", "~", "-", "=", "`", "{", "}", "[", "]", ":", ";", "'", "<", ">", "?", ".", "/"];
+
+    if (specialChars.some(char => name.includes(char))) {
+        alert("Name should not contain special characters");
+        return false;
+    }
+
+    alert("Login successful!");
+    return true;
+}
+
+</script>
+
+</body>
+</html>
